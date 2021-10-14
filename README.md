@@ -31,6 +31,7 @@ The `osde2e` command is the root command that executes all functionality within 
 ### Running from source
  
 To run osde2e locally, first build the binary (do this after all changes) by running `make build`. The resulting binaries will be in `./out/`.
+**Go 1.17+ will require the GOINSECURE=github.com for the pkger task in the Makefile in order to install the binary**
  
 Once built, you can invoke osde2e by running `./out/osde2e` and osde2ectl by running `./out/osde2ectl`.
  
