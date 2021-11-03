@@ -60,7 +60,7 @@ build-quick:
 	go build -o "$(OUT_DIR)" "$(DIR)cmd/..."
 
 pkger:
-	GOINSECURE=github.com GOFLAGS='' go get github.com/markbates/pkger/cmd/pkger
+	GOINSECURE=github.com GOFLAGS='' go install github.com/markbates/pkger/cmd/pkger
 	pkger --include $(DIR)assets --include $(DIR)configs
 
 diffproviders.txt:
