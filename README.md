@@ -14,6 +14,7 @@ Log into OCM, then go here to obtain an [OpenShift Offline Token].
 A properly setup Go workspace using **Go 1.16+ is required**.
  
 Install dependencies:
+
 ```
 # Install dependencies
 $ go mod tidy
@@ -354,3 +355,12 @@ Each cluster's information can be viewed similar to the one obtained using the g
 #### Example:
 ``` ./osde2ectl list --configs stage ```
 
+### Troubleshooting ###
+```diff
+- Error: "make: pkger: No such file or directory"
+This error is caused by the fact that Go packages are not installed.
+This can also be a PATH issue. -- export PATH=$PATH:$(go env GOPATH)/bin
+
+- Warning/Error: "go get: installing executables with 'go get' in module mode is deprecated..."
++ This warning occurs when Golang version is less than 1.17.
+```
