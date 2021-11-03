@@ -363,4 +363,7 @@ This can also be a PATH issue. -- export PATH=$PATH:$(go env GOPATH)/bin
 
 - Warning/Error: "go get: installing executables with 'go get' in module mode is deprecated..."
 + This warning occurs when Golang version is less than 1.17.
+
+- Tests failed: could not setup cluster provider: can't parse token 0: token contains an invalid number of segments
++ OCM_TOKEN is not set.
 ```
