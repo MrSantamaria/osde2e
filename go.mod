@@ -23,7 +23,7 @@ require (
 	github.com/google/go-github/v31 v31.0.0
 	github.com/google/uuid v1.2.0
 	github.com/gotestyourself/gotestyourself v2.2.0+incompatible // indirect
-	github.com/hashicorp/go-multierror v1.1.0
+	github.com/hashicorp/go-multierror v1.1.1
 	github.com/influxdata/tdigest v0.0.1 // indirect
 	github.com/jackc/pgtype v1.9.1
 	github.com/jinzhu/inflection v1.0.0
