@@ -72,7 +72,7 @@ require (
 	google.golang.org/api v0.83.0
 	google.golang.org/genproto v0.0.0-20220602131408-e326c6e8e9c8
 	gopkg.in/yaml.v3 v3.0.1
-	gotest.tools/v3 v3.2.0
+	gotest.tools/v3 v3.3.0
 	k8s.io/api v0.23.0
 	k8s.io/apimachinery v0.23.0
 	k8s.io/client-go v12.0.0+incompatible
