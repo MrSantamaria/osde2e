@@ -41,7 +41,7 @@ require (
 	github.com/openshift/rosa v1.2.9-0.20221103140620-386b9ce99acb
 	github.com/openshift/route-monitor-operator v0.0.0-20210309123726-229da76cc133
 	github.com/openshift/splunk-forwarder-operator v0.0.0-20201112162206-2f454770b6c0
-	github.com/operator-framework/api v0.3.6
+	github.com/operator-framework/api v0.17.1
 	github.com/operator-framework/operator-lifecycle-manager v0.0.0-20200521062108-408ca95d458f
 	github.com/ory/dockertest v3.3.5+incompatible
 	github.com/pganalyze/pg_query_go/v2 v2.2.0
@@ -65,10 +65,10 @@ require (
 	google.golang.org/genproto v0.0.0-20221027153422-115e99e71e1c
 	gopkg.in/yaml.v3 v3.0.1
 	gotest.tools/v3 v3.4.0
-	k8s.io/api v0.23.0
-	k8s.io/apimachinery v0.23.0
+	k8s.io/api v0.24.0
+	k8s.io/apimachinery v0.24.0
 	k8s.io/client-go v12.0.0+incompatible
-	k8s.io/utils v0.0.0-20210930125809-cb0fa318a74b
+	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 )
 
 require (
@@ -85,7 +85,7 @@ require (
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/benbjohnson/clock v1.1.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/blang/semver v3.5.1+incompatible // indirect
+	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/briandowns/spinner v1.11.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
@@ -109,6 +109,7 @@ require (
 	github.com/golang/glog v1.0.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/google/gnostic v0.5.7-v3refs // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
@@ -121,7 +122,7 @@ require (
 	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/go-version v1.3.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
-	github.com/imdario/mergo v0.3.11 // indirect
+	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/influxdata/tdigest v0.0.1 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
@@ -160,7 +161,7 @@ require (
 	github.com/prometheus/common/sigv4 v0.1.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20200410134404-eec4a21b6bb0 // indirect
-	github.com/sirupsen/logrus v1.7.0 // indirect
+	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/streadway/quantile v0.0.0-20150917103942-b0c588724d25 // indirect
@@ -186,13 +187,13 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/apiextensions-apiserver v0.23.0 // indirect
+	k8s.io/apiextensions-apiserver v0.24.0 // indirect
 	k8s.io/klog v1.0.0 // indirect
-	k8s.io/klog/v2 v2.30.0 // indirect
-	k8s.io/kube-openapi v0.0.0-20201113171705-d219536bb9fd // indirect
-	sigs.k8s.io/controller-runtime v0.8.3 // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.1.2 // indirect
-	sigs.k8s.io/yaml v1.2.0 // indirect
+	k8s.io/klog/v2 v2.60.1 // indirect
+	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42 // indirect
+	sigs.k8s.io/controller-runtime v0.12.1 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
+	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace (
