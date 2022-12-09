@@ -23,8 +23,8 @@ require (
 	github.com/kylelemons/godebug v1.1.0
 	github.com/lib/pq v1.10.7
 	github.com/mitchellh/mapstructure v1.5.0
-	github.com/onsi/ginkgo/v2 v2.5.2-0.20221208044619-956e6d2efd6b
-	github.com/onsi/gomega v1.24.0
+	github.com/onsi/ginkgo/v2 v2.3.1
+	github.com/onsi/gomega v1.22.1
 	github.com/openshift-online/ocm-sdk-go v0.1.299
 	github.com/openshift/api v3.9.1-0.20190517100836-d5b34b957e91+incompatible
 	github.com/openshift/client-go v0.0.0-20220603133046-984ee5ebedcf
@@ -35,7 +35,7 @@ require (
 	github.com/openshift/rosa v1.2.9-0.20221103140620-386b9ce99acb
 	github.com/openshift/route-monitor-operator v0.0.0-20221118160357-3df1ed1fa1d2
 	github.com/openshift/splunk-forwarder-operator v0.0.0-20221120204055-42afd88abb4c
-	github.com/operator-framework/api v0.17.1
+	github.com/operator-framework/api v0.17.2
 	github.com/operator-framework/operator-lifecycle-manager v0.22.0
 	github.com/ory/dockertest v3.3.5+incompatible
 	github.com/pganalyze/pg_query_go/v2 v2.2.0
